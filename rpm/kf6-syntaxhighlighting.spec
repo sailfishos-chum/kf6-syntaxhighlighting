@@ -31,7 +31,7 @@ Requires: %{name} = %{version}-%{release}
 Headers and CMake config files for building against KSyntaxHighlighting.
 
 %prep
-%autosetup -n %{name}%{version}/upstream
+%autosetup -n %{name}-%{version}/upstream
 
 %build
 export SBOX_MAPPING_LOGLEVEL=error
