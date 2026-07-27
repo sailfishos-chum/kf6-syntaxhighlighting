@@ -16,6 +16,7 @@ BuildRequires: kf6-rpm-macros
 BuildRequires: cmake(Qt6Core)
 BuildRequires: cmake(Qt6Network)
 BuildRequires: cmake(Qt6Test)
+BuildRequires: cmake(Qt6LinguistTools)
 
 BuildRequires: cmake(Qt6Quick)
 BuildRequires: cmake(Qt6Gui)
