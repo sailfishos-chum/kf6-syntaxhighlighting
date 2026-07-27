@@ -46,6 +46,7 @@ export SBOX_MAPPING_LOGLEVEL=error
 %cmake_kf6 \
     -Wno-dev \
     -DKSYNTAXHIGHLIGHTING_USE_GUI=ON \
+    -DQRC_SYNTAX=OFF \
     -DBUILD_TESTING=OFF
 %cmake_build
 
