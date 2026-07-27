@@ -54,6 +54,9 @@ export SBOX_MAPPING_LOGLEVEL=error
 %install
 %cmake_install
 
+# let's own this
+install -d %{buildroot}%{_kf6_datadir}/org.kde.syntax-highlighting/syntax
+
 %post -p /sbin/ldconfig
 %postun -p /sbin/ldconfig
 
@@ -65,6 +68,7 @@ export SBOX_MAPPING_LOGLEVEL=error
 %{_datadir}/locale/*/LC_MESSAGES/syntaxhighlighting6_qt.qm
 %{_datadir}/qlogging-categories6/ksyntaxhighlighting.*
 %{_kf6_datadir}/org.kde.syntax-highlighting/syntax-bundled/
+%dir %{_kf6_datadir}/org.kde.syntax-highlighting/syntax
 
 %files devel
 %{_kf6_includedir}/KSyntaxHighlighting/
