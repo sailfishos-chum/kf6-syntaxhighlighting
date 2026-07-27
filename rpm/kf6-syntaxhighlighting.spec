@@ -64,6 +64,7 @@ export SBOX_MAPPING_LOGLEVEL=error
 %{_kf6_qmldir}/org/kde/syntaxhighlighting/
 %{_datadir}/locale/*/LC_MESSAGES/syntaxhighlighting6_qt.qm
 %{_datadir}/qlogging-categories6/ksyntaxhighlighting.*
+%{_kf6_datadir}/org.kde.syntax-highlighting/syntax-bundled/
 
 %files devel
 %{_kf6_includedir}/KSyntaxHighlighting/
